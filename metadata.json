@@ -1,0 +1,10 @@
+{
+  "name": "pedros",
+  "description": "سیستەمی بەڕێوەبردنی کۆگا و فرۆشتنی مارکێتی pedros",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

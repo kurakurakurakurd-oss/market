@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@layer base {
+  * {
+    border-color: var(--color-stone-200, #e7e5e4);
+  }
+}
+
+@media print {
+  body {
+    background-color: white !important;
+    color: black !important;
+  }
+  
+  header, nav, .print\:hidden {
+    display: none !important;
+  }
+}
